@@ -41,10 +41,10 @@ class SearchBar extends Component{
                 <form  onSubmit={this.onFormSubmit}>
                     <div  className='search'>
                         <div className='searchContent'>
-                            <label className='searchLabel'>Video Search</label>
+                            <i className='fa fa-youtube fa-2x youtube'></i>
                             <input className='searchbar' type="text" value={this.state.searchText} onChange={this.onInputChange}/>
                             <button type='submit' className='searchButton'>
-                                <i className='fa fa-search'></i>
+                                <i className='fa fa-search '></i>
                             </button>
                     </div>
                     </div>

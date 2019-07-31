@@ -1,10 +1,12 @@
 body{
-    background-color: #b7b7b7;
+    background-color: #eeeeee;
+    font-family: Roboto,Arial,sans-serif;
 }
 *{
     padding: 0;
     margin: 0;
 }
+
 
 
 .container{
@@ -17,3 +19,8 @@ body{
     grid-template-columns: 3fr 1fr;
 }
 
+@media(max-width: 768px) {
+    .grid-layout{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,12 +1,35 @@
+.main-video{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .segment-ui{
     border: 2px solid #d3d3d3;
     padding: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
 
 }
 .iframe{
-    width: 800px;
-    height:400px ;
+    width: 1000px;
+    height:470px ;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-right: .5rem;
+
+}
+
+@media(max-width: 768px) {
+    .iframe{
+        width: 730px;
+        height:300px ;
+    }
+}
+
+@media(max-width: 500px) {
+    .iframe{
+        width: 460px;
+        height:300px ;
+    }
 }
 
 .container{

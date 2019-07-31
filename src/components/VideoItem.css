@@ -6,6 +6,7 @@ display: flex;
 .itemImage{
     width: 180px;
     height:100px ;
+    margin: .3rem;
 }
 
 .video-item .content{

@@ -2,8 +2,8 @@
     display: flex;
     width:100% ;
     margin-right: 3rem;
-    background: url("../image/youtube.png");
-    height: 100vh
+background-color: #cdcdcd;
+    height: 20vh
 }
 
 
@@ -18,7 +18,7 @@ display: flex;
 
     top:0;
     left:0;
-    background-color: rgba(0,0,0,0.8);
+
 }
 
 
@@ -53,3 +53,6 @@ display: flex;
     margin-right: 0.5rem;
     margin-top: 0.5rem;
 }
+
+
+.youtube{margin: 1rem}
