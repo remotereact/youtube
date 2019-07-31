@@ -1,10 +1,14 @@
 .segment-ui{
-    border: 1px solid lightgrey;
+    border: 2px solid #d3d3d3;
+    padding: 1rem;
+    margin: 1rem;
+
 }
 .iframe{
-    width: 770px;
-    height:380px ;
+    width: 800px;
+    height:400px ;
 }
-.main-video{
-    margin-top: 14px;
+
+.container{
+    margin: 1rem;
 }

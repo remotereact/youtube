@@ -1,18 +1,17 @@
 .video-item{
 display: flex;
-    align-items: center;
-    align-content: center;
     border-bottom: 1px solid lightgrey;
-    margin: 5px;
 }
 
-
-
-#side-bar img{
+.itemImage{
     width: 180px;
     height:100px ;
 }
 
 .video-item .content{
     margin: 5px;
+}
+
+.content{
+    text-align: center;
 }

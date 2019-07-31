@@ -1,4 +1,6 @@
 import React,{Component} from 'react';
+import './SearchBar.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 
 
@@ -32,14 +34,19 @@ class SearchBar extends Component{
         // youtube api
     };
 
-    render() {
 
+    render() {
         return(
-            <div>
-                <form onSubmit={this.onFormSubmit}>
-                    <div>
-                        <label>Video Search</label>
-                        <input type="text" value={this.state.searchText} onChange={this.onInputChange}/>
+            <div >
+                <form  onSubmit={this.onFormSubmit}>
+                    <div  className='search'>
+                        <div className='searchContent'>
+                            <label className='searchLabel'>Video Search</label>
+                            <input className='searchbar' type="text" value={this.state.searchText} onChange={this.onInputChange}/>
+                            <button type='submit' className='searchButton'>
+                                <i className='fa fa-search'></i>
+                            </button>
+                    </div>
                     </div>
                 </form>
             </div>
